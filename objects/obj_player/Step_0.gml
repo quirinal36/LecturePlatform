@@ -14,6 +14,13 @@ script_execute(calc_move);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
+/// @DnDHash : 189EA69B
+/// @DnDArgument : "script" "check_ground"
+/// @DnDSaveInfo : "script" "check_ground"
+script_execute(check_ground);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
 /// @DnDHash : 1B515361
 /// @DnDArgument : "script" "check_jump"
 /// @DnDSaveInfo : "script" "check_jump"

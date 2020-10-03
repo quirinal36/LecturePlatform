@@ -21,4 +21,21 @@ function calc_move()
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "v_spd"
 	v_spd += global.grav;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 775D2F16
+	/// @DnDParent : 5D52F9B1
+	/// @DnDArgument : "var" "abs(h_spd)"
+	/// @DnDArgument : "op" "1"
+	/// @DnDArgument : "value" "0.5"
+	if(abs(h_spd) < 0.5)
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3FE7B0F9
+		/// @DnDParent : 775D2F16
+		/// @DnDArgument : "var" "h_spd"
+		h_spd = 0;
+	}
 }
