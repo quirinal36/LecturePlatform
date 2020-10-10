@@ -27,6 +27,7 @@
     {"id":{"name":"o_entity","path":"objects/o_entity/o_entity.yy",},"order":2,},
     {"id":{"name":"tile_jungle_wall_brown","path":"sprites/tile_jungle_wall_brown/tile_jungle_wall_brown.yy",},"order":9,},
     {"id":{"name":"spr_solid","path":"sprites/spr_solid/spr_solid.yy",},"order":1,},
+    {"id":{"name":"Sprite11","path":"sprites/Sprite11/Sprite11.yy",},"order":10,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
