@@ -13,12 +13,21 @@ function check_jump()
 	/// @DnDArgument : "value" "true"
 	if(jump == true)
 	{
-		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 4C86A056
+		/// @DnDHash : 471AB32A
 		/// @DnDParent : 3C0713DB
-		/// @DnDArgument : "expr" "-jump_spd"
-		/// @DnDArgument : "var" "v_spd"
-		v_spd = -jump_spd;
+		/// @DnDArgument : "var" "on_ground"
+		/// @DnDArgument : "value" "true"
+		if(on_ground == true)
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4C86A056
+			/// @DnDParent : 471AB32A
+			/// @DnDArgument : "expr" "-jump_spd"
+			/// @DnDArgument : "var" "v_spd"
+			v_spd = -jump_spd;
+		}
 	}
 }
